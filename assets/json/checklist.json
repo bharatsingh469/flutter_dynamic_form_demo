@@ -1,0 +1,107 @@
+[
+  {
+    "type": "checkbox-group",
+    "required": true,
+    "label": "Checkbox",
+    "name": "checkbox",
+    "values": [
+      {
+        "label": "Option 1",
+        "value": "option-1",
+        "selected": true
+      },
+      {
+        "label": "Option 2",
+        "value": "option-2",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "type": "date",
+    "required": true,
+    "label": "Date Field",
+    "name": "date",
+    "access": false
+  },
+  {
+    "type": "radio-group",
+    "required": false,
+    "label": "Radio Group",
+    "name": "radio",
+    "values": [
+      {
+        "label": "Option 1",
+        "value": "option-1",
+        "selected": false
+      },
+      {
+        "label": "Option 2",
+        "value": "option-2",
+        "selected": false
+      },
+      {
+        "label": "Option 3",
+        "value": "option-3",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "Select",
+    "name": "select",
+    "multiple": false,
+    "values": [
+      {
+        "label": "Option 1",
+        "value": "option-1",
+        "selected": true
+      },
+      {
+        "label": "Option 2",
+        "value": "option-2",
+        "selected": false
+      },
+      {
+        "label": "Option 3",
+        "value": "option-3",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "required": false,
+    "label": "Text Field",
+    "name": "text"
+  },
+  {
+    "type": "textarea",
+    "required": false,
+    "label": "Text Area",
+    "name": "textarea"
+  },
+  {
+    "type": "paragraph",
+    "label": "Paragraph"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "label": "Number",
+    "name": "number"
+  },
+  {
+    "type": "header",
+    "label": "Header"
+  },
+  {
+    "type": "file",
+    "required": false,
+    "label": "File Upload",
+    "name": "file",
+    "multiple": false
+  }
+]
